@@ -1,0 +1,26 @@
+{
+  "name": "cop2822c",
+  "version": "1.0.0",
+  "description": "Just for assignment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "parcel src/**/*.html",
+    "build": "parcel build src/**/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccpend/COP2822C.git"
+  },
+  "author": "Ning Liu",
+  "bugs": {
+    "url": "https://github.com/ccpend/COP2822C/issues"
+  },
+  "homepage": "https://github.com/ccpend/COP2822C#readme",
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "bulma": "^0.9.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
