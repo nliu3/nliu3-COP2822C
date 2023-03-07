@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>About Me - Ning Liu's Page</title>
+        <link rel="stylesheet" href="../../assets/styles/about.scss" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="../../../node_modules/photoswipe/dist/photoswipe.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="side">
+                <div class="content">
+                    <h1>Hi, I am Ning Liu,</h1>
+                    <img class="introImg" src="../../assets/images/abouts/avatar.png" loading="lazy" />
+                    <h3>A programming artist.</h3>
+                    <p><a target="_blank" href="https://github.com/nliu3/nliu3-COP2822C">GitHub</a></p>
+                    <p><a target="_blank" href="https://valenciacollege.edu/">Valencia College</a></p>
+                </div>
+            </div>
+            <div class="main">
+                <div class="my-gallery" id="myGallery">
+                    <a href="../../assets/images/abouts/1.jpg" data-pswp-width="2250" data-pswp-height="3000" target="_blank">
+                        <img src="../../assets/images/abouts/1.jpg" loading="lazy" />
+                    </a>
+                    <a href="../../assets/images/abouts/2.jpg" data-pswp-width="2250" data-pswp-height="3000" target="_blank">
+                        <img src="../../assets/images/abouts/2.jpg" loading="lazy" />
+                    </a>
+                    <a href="../../assets/images/abouts/1.jpg" data-pswp-width="2250" data-pswp-height="3000" target="_blank">
+                        <img src="../../assets/images/abouts/4.jpg" loading="lazy" />
+                    </a>
+                    <a href="../../assets/images/abouts/1.jpg" data-pswp-width="2250" data-pswp-height="3000" target="_blank">
+                        <img src="../../assets/images/abouts/3.jpg" loading="lazy" />
+                    </a>
+                    <a href="../../assets/images/abouts/1.jpg" data-pswp-width="2250" data-pswp-height="3000" target="_blank">
+                        <img src="../../assets/images/abouts/5.jpg" loading="lazy" />
+                    </a>
+                    <a href="../../assets/images/abouts/1.jpg" data-pswp-width="2250" data-pswp-height="3000" target="_blank">
+                        <img src="../../assets/images/abouts/6.jpg" loading="lazy" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script type="module">
+            import Lightbox from '../../../node_modules/photoswipe/dist/photoswipe-lightbox.esm.js';
+            const lightbox = new Lightbox({
+              gallery: '#myGallery',
+              children: 'a',
+              pswpModule: () => import('../../../node_modules/photoswipe/dist/photoswipe.esm.js')
+            });
+            lightbox.init();
+        </script>
+    </body>
+</html>
