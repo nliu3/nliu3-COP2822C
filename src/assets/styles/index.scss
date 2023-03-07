@@ -21,6 +21,19 @@ a {
   -webkit-text-stroke: 2px #eeeeee;
 }
 
+.about-me {
+    margin-bottom: 5vh;
+    font-size: 38px;
+    font-weight: bold;
+
+    a {
+        background-color: white;
+        background: rgba(255, 255, 255, .7);
+        padding: 2vh;
+        border-radius: 2vh;
+    }
+}
+
 .table {
   margin-left: auto;
   margin-right: auto;
