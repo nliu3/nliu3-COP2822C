@@ -18,7 +18,8 @@
   "homepage": "https://github.com/ccpend/COP2822C#readme",
   "dependencies": {
     "@parcel/transformer-sass": "^2.8.3",
-    "bulma": "^0.9.4"
+    "bulma": "^0.9.4",
+    "photoswipe": "^5.3.6"
   },
   "devDependencies": {
     "parcel": "^2.8.3"
