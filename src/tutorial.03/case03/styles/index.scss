@@ -1,0 +1,43 @@
+/*
+   Author: Ning Liu
+   Date:   3/12/2014
+*/
+
+@import './c_layout';
+
+html, body {
+    background-color: #000;
+    color: #FFF;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+header {
+    h1 {
+        color: yellow;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 28px;
+        letter-spacing: 20px;
+        text-align: center;
+    }
+}
+
+article {
+    h2 {
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: 5px;
+    }
+
+    text-align: justify;
+}
+
+.keyword {
+    color: yellow;
+    font-weight: normal;
+}
+
+footer {
+    p {
+        text-align: center;
+    }
+}

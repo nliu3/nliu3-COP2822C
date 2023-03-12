@@ -1,0 +1,28 @@
+﻿/*
+   Author: Ning Liu
+   Date:   3/12/2014
+*/
+
+/* Layout styles */
+body {
+	margin: 0px auto;
+	padding: 0px;
+	width: 98%;
+	max-width: 800px;
+	min-width: 250px;
+}
+
+header {
+	margin: 0px auto;
+}
+
+footer {
+	margin: 0px auto;
+}
+
+article {
+	img {
+		float: right;
+		margin: 15px 0px 15px 15px;
+	}
+}
