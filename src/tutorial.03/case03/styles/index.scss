@@ -5,16 +5,23 @@
 
 @import './c_layout';
 
+$mainFont: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+$titleFont: "Courier New", Courier, monospace;
+
+$backgroundColor: #000;
+$defaultColor: #FFF;
+$titleColor: yellow;
+
 html, body {
-    background-color: #000;
-    color: #FFF;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-color: $backgroundColor;
+    color: $defaultColor;
+    font-family: $mainFont;
 }
 
 header {
     h1 {
-        color: yellow;
-        font-family: "Courier New", Courier, monospace;
+        color: $titleColor;
+        font-family: $titleFont;
         font-size: 28px;
         letter-spacing: 20px;
         text-align: center;
@@ -32,7 +39,7 @@ article {
 }
 
 .keyword {
-    color: yellow;
+    color: $titleColor;
     font-weight: normal;
 }
 
